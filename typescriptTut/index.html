@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .tab-header {
+            width:50px;
+            padding: 2px 4px;
+        }
+        .tabs .active {
+            color:blue;
+        }
+        .panel{
+            display: none;
+        }
+        .panels .panel.active{
+            display: block;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <!-- <div  class="tab">
+            <div class="tab-header">
+                one
+            </div>
+
+            <div class="tab-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet molestiae eius autem enim aliquid dolorum incidunt sequi nobis laborum delectus voluptatem quam nihil error, voluptate animi ullam consectetur. Assumenda, nisi?
+            </div>
+        </div>
+        <div class="tab">
+            <div class="tab-header">
+                two
+            </div>
+            <div class="tab-content">
+                two two two
+            </div>
+        </div>
+        <div class="tab">
+            <div class="tab-header">
+                three
+            </div>
+            <div class="tab-content">
+                three three three
+            </div>
+        </div> -->
+        <div class="tabs">
+            <div class="tab active" data-target="one">
+                one
+            </div>
+            <div class="tab"  data-target="two">
+                two
+            </div>
+            <div class="tab" data-target="three">
+                three
+            </div>
+        </div>
+        <div class="panels" >
+            <div class="panel active" id="one">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, dicta. 
+            </div>
+            <div class="panel" id="two">
+                Harum incidunt, culpa voluptas magni officiis tempora itaque laudantium, quod alias modi
+            </div>
+            <div class="panel" id="three">
+                aspernatur fugit asperiores reprehenderit id doloribus eos veritatis?
+            </div>
+        </div>
+    </div>
+    <script src="practice.js"></script>
+</body>
+</html>
